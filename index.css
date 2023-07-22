@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Foldit&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,500&display=swap');
+
+body{
+    background-color: #54c3ef;
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    font-family: 'Foldit', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn{
+
+    background-color: yellow;
+    color: #2b3252;
+    border-radius: 7px;
+    height: 2.5rem;
+    width: 5.5rem;
+    margin-left: 35%;
+}
+#quiz{
+
+    margin: 3% 30%;
+    background-color: #2b3252;
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+
+}
+.formargin{
+    margin-bottom: 20px;
+}
+
+#head{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: yellow;
+    text-shadow: -3px 2px 2px #000,
+				  2px 2px 3px #000,
+				  2px -2px 0 #000,
+				  -1px -1px 0 #000;
+    
+}
+
+@media screen and (max-width:430px){
+    #head{
+        font-size:large;
+        
+    }
+    #questions{
+        font-size: 0.9rem;
+    }
+}
+
+
+#navigator{
+    display: flex;
+
+
+}
+
+#score{
+    height: 5rem;
+    width: 10rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    top: 0;
+    position: sticky;
+    border: 2px solid #2b3252;
+    border-radius: 2px;
+
+}
